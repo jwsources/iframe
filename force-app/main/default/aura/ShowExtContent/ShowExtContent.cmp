@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    
+    <aura:attribute name="vWidth" type="String" default="560"/>
+    <aura:attribute name="vHeight" type="String" default="315"/>
+    <aura:attribute name="videoId" type="String" default="uht2IIyZG7Y"/>
+    <aura:attribute name="vHost" type="String" default="www.youtube-nocookie.com/embed/"/>
+    <aura:attribute name="qParam" type="String" default="?rel=0&amp;showinfo=0"/>
+
+
+    <iframe aura:id="vfFrame" width="{!v.vWidth}" height="{!v.vHeight}" src="{!'https://' + v.vHost + v.videoId + v.qParam}" frameborder="0"></iframe>
+
+</aura:component>

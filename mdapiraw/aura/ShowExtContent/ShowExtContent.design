@@ -1,0 +1,8 @@
+<design:component label="ExtContent">
+    <design:attribute name="vWidth" label="Width" default="560" />
+    <design:attribute name="vHeight" label="Height" default="315" />
+    <design:attribute name="videoId" label="Video ID" default="uht2IIyZG7Y" />
+    <design:attribute name="vHost" label="Host" default="www.youtube-nocookie.com/embed/" />
+    <design:attribute name="qParam" label="Query Params" default="?rel=0&amp;showinfo=0"/>
+
+</design:component>
